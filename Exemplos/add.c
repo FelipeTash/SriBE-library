@@ -2,7 +2,7 @@
 // main.c
 #include <stdio.h>
 #include <stdlib.h>
-#include "StribE-library/stribe.h"
+#include "stribe.h" // or #include "StriBE-library/stribe.h"
 
 int main() {
     char *nome = add("Pedro");
