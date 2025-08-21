@@ -1,9 +1,9 @@
-// stringx.c
+// StriBE.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "stringx.h"
+#include "stribe.h"
 
 int is_equal(const char *a, const char *b) {
     return strcmp(a, b) == 0;
