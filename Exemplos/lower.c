@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "stribe.h"
+#include "stribe.h" // or #include "StriBE-library/stribe.h"
 
 int main() {
     const char *original = "Hello, World!";
@@ -16,4 +16,5 @@ int main() {
     free(lowercased);
     
     return 0;
+
 }
