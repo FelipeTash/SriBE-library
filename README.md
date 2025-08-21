@@ -1,4 +1,4 @@
-# StriBE
+# StriBE library
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/FelipeTash/StriBE-library?style=for-the-badge )
 ![GitHub top language](https://img.shields.io/github/languages/top/FelipeTash/StriBE-library?style=for-the-badge )
