@@ -7,5 +7,6 @@ char* add(const char *src);
 char* concat(const char *a, const char *b);
 char* uppercase(const char *src);
 char* lowercase(const char *src);
+char* trim(const char *src);
 
 #endif
