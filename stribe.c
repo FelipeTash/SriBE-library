@@ -47,3 +47,19 @@ char* lowercase(const char *src) {
     }
     return lower;
 }
+char* trim(const char *src) {
+    while (isspace((unsigned char)*src)) src++;
+    if (*src == 0) return strdup("");
+
+    const char *end = src + strlen(src) - 1;
+    while (end > src && isspace((unsigned char)*end)) end--;
+    end++;
+
+    size_t len = end - src;
+    char *trimmed = malloc(len + 1);
+    if (trimmed) {
+        strncpy(trimmed, src, len);
+        trimmed[len] = '\0';
+    }
+    return trimmed;
+}
