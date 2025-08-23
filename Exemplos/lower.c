@@ -11,9 +11,6 @@ int main() {
     } else {
         printf("Memory allocation failed.\n");
     }
-
-    // Free the allocated memory
-    free(lowercased);
     
     return 0;
 
